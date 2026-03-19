@@ -11,18 +11,18 @@ Este projeto implementa um relógio sincronizado via Wi-Fi no microcontrolador *
 ## Como usar
 
 1. **Configuração:** No arquivo `main.c`, insira suas credenciais:
-   ```c
-   #define WIFI_SSID "wifi-iot-2.4"
-   #define WIFI_PASS "iot-2026.1"
-   ```
+```c
+#define WIFI_SSID "wifi-iot-2.4"
+#define WIFI_PASS "iot-2026.1"
+```
 
 2. **Build & Flash:**
-  ```bash
-  idf.py set-target esp32c6
-  idf.py build
-  idf.py flash
-  idf.py monitor
-  ```
+```bash
+idf.py set-target esp32c6
+idf.py build
+idf.py flash
+idf.py monitor
+```
 
 **Estrutura de Arquivos**
 * main/: Código-fonte (main.c) e lógica do SNTP.
