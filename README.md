@@ -25,9 +25,9 @@ idf.py monitor
 ```
 
 **Estrutura de Arquivos**
-* main/: Código-fonte (main.c) e lógica do SNTP.
-* sdkconfig: Configurações do framework.
-* .gitignore: Ignora a pasta build/ e arquivos temporários.
+* `main/`: Código-fonte (main.c) e lógica do SNTP.
+* `sdkconfig`: Configurações do framework.
+* `.gitignore`: Ignora a pasta build/ e arquivos temporários.
 
 ---
 Desenvolvido por *Daniel Lima Neto*
